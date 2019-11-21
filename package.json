@@ -1,9 +1,12 @@
 {
+  "homepage": "https://bcgupta.github.io",
   "name": "trial",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d /react-client/dist",
     "dev": "webpack -d --watch",
     "start": "node ./server/index.js",
     "build": "webpack -p",
@@ -20,6 +23,7 @@
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "file-loader": "^4.2.0",
+    "normalize.css": "^8.0.1",
     "prop-types": "^15.7.2",
     "react": "^15.6.2",
     "react-animations": "^1.0.0",
@@ -35,6 +39,7 @@
     "webpack": "^3.12.0"
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "react-social-icons": "^4.1.0"
   }
 }
