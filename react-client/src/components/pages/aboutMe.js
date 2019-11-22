@@ -13,13 +13,13 @@ class AboutMyself extends Component{
     render()
     {
         return (
-            <div>
+            <div style={{marginBottom: '6em'}}>
 
                 <div id='projectHeading'>
 
                     <Header as='h1' size='huge' inverted color = 'white' textAlign="center" id='textFade'>About me</Header>
                 </div>
-
+<div style={{marginTop: '2em'}}>
                     <Grid container alignItems='flex-start' justify='flex-end'>
                         <GridRow>
                             <GridColumn width='5'>
@@ -35,7 +35,8 @@ class AboutMyself extends Component{
                             </GridColumn>
                         </GridRow>
                     </Grid>
-
+</div>
+<div style={{marginTop: '2em'}}>
                 <Grid container alignItems='flex-start' justify='flex-end'>
                     <GridRow columns='3'>
                         <GridColumn>
@@ -48,21 +49,24 @@ class AboutMyself extends Component{
                             <Image src={src5} size='large' bordered centered rounded/>
                         </GridColumn>
                     </GridRow>
-                </Grid>
 
+                    <GridRow columns='3'>
+                        <GridColumn>
+                            <Image src={src1} size='large'  bordered centered rounded/>
+                        </GridColumn>
+                        <GridColumn>
+                            <Image src={src6} size='large'  bordered centered rounded/>
+                        </GridColumn>
+                        <GridColumn>
+                            <Image src={src7} size='large'  bordered centered rounded/>
+                        </GridColumn>
+                    </GridRow>
+
+                </Grid>
+</div>
 
         <Grid container alignItems='flex-start' justify='flex-end'>
-            <GridRow columns='3'>
-                <GridColumn>
-                    <Image src={src1} size='large'  bordered centered rounded/>
-                </GridColumn>
-                <GridColumn>
-                    <Image src={src6} size='large'  bordered centered rounded/>
-                </GridColumn>
-                <GridColumn>
-                    <Image src={src7} size='large'  bordered centered rounded/>
-                </GridColumn>
-            </GridRow>
+
         </Grid>
 
 
