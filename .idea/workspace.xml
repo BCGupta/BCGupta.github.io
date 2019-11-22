@@ -3,15 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="2c383eda-0f7c-408c-b5e5-6633cf88550c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-client/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-client/dist/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-client/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/react-client/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-client/src/components/Images/IMG_9541.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-client/src/components/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-client/src/components/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-client/src/components/pages/aboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-client/src/components/pages/aboutMe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-client/src/components/pages/selfProjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-client/src/components/pages/selfProjects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-client/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,6 +31,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
@@ -141,7 +152,7 @@
       <updated>1573845148318</updated>
       <workItem from="1573845157137" duration="1333000" />
       <workItem from="1574319753540" duration="813000" />
-      <workItem from="1574378404511" duration="293000" />
+      <workItem from="1574378404511" duration="2930000" />
     </task>
     <servers />
   </component>

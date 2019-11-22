@@ -19,7 +19,7 @@ class AboutMyself extends Component{
 
                     <Header as='h1' size='huge' inverted color = 'white' textAlign="center" id='textFade'>About me</Header>
                 </div>
-<div style={{marginBottom: '9em'}}>
+
                     <Grid container alignItems='flex-start' justify='flex-end'>
                         <GridRow>
                             <GridColumn width='5'>
@@ -35,7 +35,7 @@ class AboutMyself extends Component{
                             </GridColumn>
                         </GridRow>
                     </Grid>
-    <div style={{marginTop: '3em'}}>
+
                 <Grid container alignItems='flex-start' justify='flex-end'>
                     <GridRow columns='3'>
                         <GridColumn>
@@ -49,9 +49,8 @@ class AboutMyself extends Component{
                         </GridColumn>
                     </GridRow>
                 </Grid>
-    </div>
 
-    <div style={{marginTop: '3em'}}>
+
         <Grid container alignItems='flex-start' justify='flex-end'>
             <GridRow columns='3'>
                 <GridColumn>
@@ -65,10 +64,10 @@ class AboutMyself extends Component{
                 </GridColumn>
             </GridRow>
         </Grid>
-    </div>
+
 
 </div>
-            </div>
+
         )
     }
 }

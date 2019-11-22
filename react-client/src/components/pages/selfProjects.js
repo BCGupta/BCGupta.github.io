@@ -6,13 +6,13 @@ class myProjects extends Component{
     render(){
         return(
 
-            <div id='textFade' style={{marginBottom: '0em'}}>
+            <div id='textFade' style={{marginBottom: '0em', display:'block'}}>
 
                 <div id='projectHeading'>
                     <Header as='h1' size='huge' textAlign="center" style={{color: 'white'}}>My Projects</Header>
                 </div>
 
-
+<div>
                 <Grid container alignItems='flex-start' justify='flex-end' style={{marginBottom: '3em'}}>
                     <GridColumn>
                         <Header as='h1' size='huge' textAlign='center'style={{color: 'white'}}>Gator Trader</Header>
@@ -27,7 +27,8 @@ class myProjects extends Component{
                         </font>
                     </GridColumn>
                 </Grid>
-
+</div>
+                <div>
  <Grid container alignItems='flex-start' justify='flex-end' columns={'two'} divided style={{ marginBottom: '2em'}}>
 
         <GridRow>
@@ -44,7 +45,7 @@ class myProjects extends Component{
      </GridColumn>
 
             <GridColumn>
-                <Header as='h1' size='huge' textAlign='center' style={{color: 'white'}}>This Website!</Header>
+                <Header as='h1' size='huge' textAlign='center' style={{color: 'white', display: 'block'}}>This Website!</Header>
                 <font size='3' color='white'>
                     I built this portfolio in order to create a piece of work to send to companies. The technologies used are ones I have never used before,
                     and I did this in order to learn some of the new frameworks being used today. This portfolio was created using ReactJS, Semantic-UI, NodeJS, Express,
@@ -55,7 +56,7 @@ class myProjects extends Component{
         </GridRow>
 
 </Grid>
-
+                </div>
                 <div id='resumeTab'>
                     <Header as='a' textAlign="center"  href={'https://drive.google.com/open?id=1u7hQ7yykJgQdIxe_cMhCzPGWAk-cfSwz'}
                             size='huge'  style={{color: 'white'}}>
