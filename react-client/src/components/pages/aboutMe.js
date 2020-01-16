@@ -27,7 +27,7 @@ class AboutMyself extends Component{
                             </GridColumn>
                             <GridColumn width='11'>
                                 <font size='5' color='white' align='center' id='textFade'>
-                                   I am a soon to be graduate of San Francisco State University, leaving with a Bachelors in
+                                   I am a graduate of San Francisco State University with a Bachelors in
                                     Computer Science. I was raised in the SF Bay Area for almost my entire life. When I am not studying or in school,
                                     I enjoy working on my car, playing the drums, and watching Formula 1 videos! With these passions of mine I have been
                                     able to go on a national tour, meet many new friends, and have many great experiences. Pictures down below!
