@@ -58,7 +58,7 @@ class myProjects extends Component{
 </Grid>
                 </div>
                 <div id='resumeTab'>
-                    <Header as='a' textAlign="center"  href={'https://drive.google.com/open?id=1u7hQ7yykJgQdIxe_cMhCzPGWAk-cfSwz'}
+                    <Header as='a' textAlign="center"  href={'https://drive.google.com/open?id=15Fyw5YcOtxy8yZSi_02-LhEcRZHJYVDO'}
                             size='huge'  style={{color: 'white'}}>
                         Resume and Contact Info
                     </Header>
